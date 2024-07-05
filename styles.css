@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bookman Old Style', serif; /* Aplica la misma fuente a todos */
+    font-style: italic; /* Aplica cursiva */
+}
+
+body {
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+.header {
+    background: #36BF8D;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo img {
+    width: 40px;
+}
+
+.navbar {
+    background-color: #343a40;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow-x: auto;
+    white-space: nowrap;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+nav ul {
+    list-style: none;
+    display: inline-flex;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 3px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 18px;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #36BF8D;
+    color: white;
+    border-radius: 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 0px;
+    max-width: auto;
+}
+
+.sidebar {
+    width: 30%;
+    background: gray;
+    padding: 5px;
+    box-shadow: 2px 0 4px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    max-height: calc(100vh - 100px);
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 5px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 15px;
+    display: block;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.sidebar ul li a:hover {
+    background-color: #36BF8D;
+    color: white;
+    border-radius: 5px;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    max-height: calc(100vh - 100px);
+}
+
+.main-content h1 {
+    margin-bottom: 20px;
+}
+
+.main-content p {
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background: #36BF8D;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background: #36BF8D;
+}
+
+.footer {
+    background: #353B40;
+    color: #fff;
+    text-align: center;
+    padding: auto;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0px -1px 8px rgba(0, 0, 0, 0.1);
+}
+
+.footer p {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.footer a {
+    color: #36BF8D;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #36BF8D;
+}
+
+.footer .social-icons {
+    margin-top: 20px;
+}
+
+.footer .social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 24px;
+    color: #fff;
+    transition: transform 0.3s ease;
+}
+
+.footer .social-icons a:hover {
+    transform: translateY(-5px);
+}
+
+#logo {
+    width: 50px;
+    height: auto;
+}
+
+#imagen {
+    border-radius: 5px;
+    width: 80%;
+    height: auto;
+    border: 2px solid #36BF8D;
+}
+
+#imagen1 {
+    border-radius: 5px;
+    width: 50%;
+    height: auto;
+    border: 2px solid #36BF8D;
+}
+
+#Explicacion {
+    text-align: center;
+    background-color: #36BF8D;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+
+#Explicacion1 {
+    text-align: left;
+    text-align: justify;
+    background-color: #36BF8D;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+
+ol {
+    text-align: center;
+    display: inline-block;
+    text-align: justify;
+    padding-left: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    border: 2px solid #36BF8D;
+}
+
+th,
+td {
+    border: 2px solid #36BF8D;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+caption {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+#Lista {
+    text-align: left;
+}
