@@ -2,8 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Bookman Old Style', serif; /* Aplica la misma fuente a todos */
-    font-style: italic; /* Aplica cursiva */
+    font-family: 'Bookman Old Style', serif;
+    /* Aplica la misma fuente a todos */
+    font-style: italic;
+    /* Aplica cursiva */
 }
 
 body {
@@ -250,4 +252,8 @@ caption {
 
 #Lista {
     text-align: left;
+}
+
+#Titulos a {
+    text-decoration: none;
 }
