@@ -78,14 +78,12 @@ body {
     box-shadow: 2px 0 4px rgba(0, 0, 0, 0.1);
     overflow-y: auto;
     max-height: calc(100vh - 100px);
-
 }
 
 .sidebar ul {
     list-style: none;
     padding: 0;
     margin: 0;
-
 }
 
 .sidebar ul li {
@@ -156,7 +154,6 @@ body {
     align-items: center;
     gap: 20px;
     max-width: 1200px;
-    /* Corregido: era 1200spx */
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -181,7 +178,6 @@ body {
 
 .footer a:hover {
     text-decoration: underline;
-
 }
 
 #logo {
@@ -190,8 +186,8 @@ body {
 }
 
 #imagen {
-    border-radius: 5px;
-    width: 80%;
+    border-radius: 10px;
+    width: 60%;
     height: auto;
     border: 2px solid #36BF8D;
 }
@@ -211,15 +207,14 @@ ol {
 }
 
 table {
-    width: 100%;
+    width: 50%;
     border-collapse: collapse;
     margin-top: 20px;
     border: 2px solid #36BF8D;
     font-size: 10px;
 }
 
-th,
-td {
+th, td {
     border: 2px solid #36BF8D;
     text-align: left;
     padding: 4px 8px;
